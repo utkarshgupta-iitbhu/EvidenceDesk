@@ -1,9 +1,11 @@
 # 🛡️ EvidenceDesk: Digital Evidence Triage Workstation
 
 > **Defensible Preliminary Forensics & Indicator Analysis Platform**  
-> *A modular, production-ready full-stack analyst workspace for triaging suspicious emails, images, and documents.*
+> *Created & Maintained by **Utkarsh Gupta** (Student & Aspiring SDE • IIT (BHU) Varanasi) • [gupta.utkarsh.iitbhu@gmail.com](mailto:gupta.utkarsh.iitbhu@gmail.com)*  
+> 🔗 **Live Demo:** [evidence-desk-ten.vercel.app](https://evidence-desk-ten.vercel.app/)
 
 ---
+
 
 ## 📌 Executive Summary
 
@@ -203,6 +205,16 @@ EvidenceDesk/
 ├── .gitignore               # Clean git exclusion rules
 └── README.md                # Comprehensive system documentation
 ```
+
+---
+
+## 👨‍💻 Author & Contact
+
+**Utkarsh Gupta**  
+* Indian Institute of Technology (BHU) Varanasi  
+* **Email:** [gupta.utkarsh.iitbhu@gmail.com](mailto:gupta.utkarsh.iitbhu@gmail.com)  
+* **Live Deployment:** [evidence-desk-ten.vercel.app](https://evidence-desk-ten.vercel.app/)  
+* **GitHub Repository:** [EvidenceDesk](https://github.com/utkarshgupta-iitbhu/EvidenceDesk)
 
 ---
 

@@ -29,7 +29,7 @@ class Settings:
     ALLOWED_ORIGINS: List[str] = [
         origin.strip() for origin in os.getenv(
             "EVIDENCE_DESK_ALLOWED_ORIGINS", 
-            "http://localhost:5173,http://127.0.0.1:5173"
+            "https://evidence-desk-ten.vercel.app,http://localhost:5173,http://127.0.0.1:5173"
         ).split(",") if origin.strip()
     ]
 

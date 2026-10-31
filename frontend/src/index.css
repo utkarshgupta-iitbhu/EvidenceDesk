@@ -1027,3 +1027,126 @@ a:focus-visible {
   background: #fbbf24;
   box-shadow: 0 0 8px #fbbf24;
 }
+
+/* Author Header & Footer Attribution Styles */
+.header-github-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 0.775rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+.header-github-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--border-focus);
+  color: #fff;
+}
+
+.footer-author-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.author-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  text-align: left;
+}
+
+.author-badge-pill {
+  font-size: 0.675rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--accent-primary);
+}
+
+.author-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.author-tagline {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.author-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.author-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 7px 14px;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+.author-btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: var(--border-focus);
+}
+
+.author-btn.primary {
+  background: rgba(2, 132, 199, 0.15);
+  border-color: var(--accent-primary);
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.author-btn.primary:hover {
+  background: rgba(2, 132, 199, 0.25);
+}
+
+.footer-bottom-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .footer-author-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .author-links {
+    width: 100%;
+  }
+  .author-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
