@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Environment & Local
+.env
+.env.local
+.DS_Store
+Thumbs.db

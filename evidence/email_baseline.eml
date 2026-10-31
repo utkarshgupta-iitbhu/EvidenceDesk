@@ -1,0 +1,15 @@
+From: Service Desk <support@demo.example>
+To: analyst@local.example
+Reply-To: support@demo.example
+Return-Path: <support@demo.example>
+Subject: Your monthly account statement is ready
+Date: Sun, 01 Nov 2026 09:00:00 +0000
+Message-ID: <clean-001@demo.example>
+Authentication-Results: mx.demo.example; spf=pass; dkim=pass; dmarc=pass
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hello, your monthly statement is ready in the account portal. Please sign in =
+using your usual bookmark. If you have questions, contact the service desk du=
+ring business hours. This sample contains no links or attachments.

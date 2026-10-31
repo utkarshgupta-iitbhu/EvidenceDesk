@@ -1,0 +1,30 @@
+From: Payroll Desk <payroll@demo.example>
+To: analyst@local.example
+Reply-To: payroll-update@other-demo.example
+Return-Path: <mailer@relay-demo.example>
+Subject: URGENT: action required to confirm payroll details
+Date: Sun, 01 Nov 2026 09:05:00 +0000
+Message-ID: <review-002@demo.example>
+Authentication-Results: mx.demo.example; spf=fail; dkim=fail; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============8248322657549953622=="
+
+--===============8248322657549953622==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Urgent: please verify your account immediately using http://203.0.113.25/payr=
+oll-review. This fictional message is designed to trigger the application's h=
+eader, urgency, and numeric-IP checks. The attached file contains harmless ex=
+planatory text only; it is not a macro or executable.
+
+--===============8248322657549953622==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="payroll_review.xlsm"
+MIME-Version: 1.0
+
+U0FGRSBERU1PTlNUUkFUSU9OIEZJTEUuIFBsYWluIHRleHQgb25seTsgbm8gbWFjcm9zIG9yIGV4
+ZWN1dGFibGUgY29udGVudC4=
+
+--===============8248322657549953622==--

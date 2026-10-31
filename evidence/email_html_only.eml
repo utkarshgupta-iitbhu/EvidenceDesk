@@ -1,0 +1,12 @@
+From: Billing <billing@demo.example>
+To: analyst@local.example
+Reply-To: redirect@other-demo.example
+Subject: HTML-only review sample
+Date: Sun, 01 Nov 2026 09:10:00 +0000
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Urgent: verify your account at <a href=3D"http://198.51.100.42=
+/review">the review page</a>.</p><p>This is an HTML-only fixture for parser i=
+nspection.</p></body></html>

@@ -1,0 +1,1 @@
+A short sample for the minimum-length check.
